@@ -25,7 +25,7 @@
 		<p><strong>Frustrations:</strong> Has a limited amount of time to look over applications. Will have to be in her office to do this and may be distracted by other work, or coworkers.  </p>
 			<h2>Goals:</h2>
 				<p>Figure out who is qualified, as well as who would be a good fit for the position to bring in for an interview. Wants to find a self motivated person who works well with a team as well as on their own.
-				As well as someone who demonstrates creativity and knowledge of user functionality in their works.</p>
+				Wants someone who demonstrates creativity and knowledge of user functionality in their works.</p>
 
 	</div>
 </body>
