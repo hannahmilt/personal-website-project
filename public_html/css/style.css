@@ -4,7 +4,7 @@ body{
 }
 
 header {
-	background-image: url(images/header.jpeg);
+	background-image: url(../images/header.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -30,7 +30,7 @@ header {
 
 }
 
-.skills {
+.container {
 	border-top:8px solid black;
 }
 
@@ -44,4 +44,8 @@ header {
 	border:3px solid black;
 	margin: 20px;
 	text-align: center;
+}
+
+.icons{
+
 }
