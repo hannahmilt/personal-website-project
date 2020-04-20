@@ -4,29 +4,49 @@
 		<meta charset="UTF-8">
 		<title>Hannah's Portfolio</title>
 		<link rel="stylesheet" href="./style.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-	<div>
-		<h1>Hannah Miltenberger</h1>
-		<h2>Fullstack Web Developer</h2>
-	</div>
-	<div>
-		<nav>
+	<header>
+		<div>
+			<h1>Hannah Miltenberger</h1>
+			<h2>Fullstack Web Developer</h2>
+		</div>
+	</header>
 
+	<div>
+		<nav class="nav nav-pills nav-justified navbar-expand-lg navbar-dark bg-dark">
+			<a class="nav-item nav-link" href="#">About Me</a>
+			<a class="nav-item nav-link" href="#">Skills</a>
+			<a class="nav-item nav-link" href="#">Portfolio</a>
+			<a class="nav-item nav-link badge-pill badge-warning" href="#">Contact</a>
 		</nav>
 	</div>
-	<div>
+
+	<div class="about-me">
+		<img src="images/hannah-head-shot.jpeg" alt="head shot picture of Hannah"/>
+		<h1>About Me</h1>
+		<p>I write the best placeholder text, and I'm the biggest developer on the web by far... While that's mock-ups and this is politics, are they really so different? It’s about making placeholder text great again. That’s what people want, they want placeholder text to be great again. I'm speaking with myself, number one, because I have a very good brain and I've said a lot of things.</p>
+
+		<p>That other text? Sadly, it’s no longer a 10. You could see there was text coming out of her eyes, text coming out of her wherever. If Trump Ipsum weren’t my own words, perhaps I’d be dating it. The concept of Lorem Ipsum was created by and for the Chinese in order to make U.S. design jobs non-competitive. Some people have an ability to write placeholder text... It's an art you're basically born with. You either have it or you don't.</p>
+
+	</div>
+
+	<div class="skills">
 		<h1>Skills</h1>
 		<p>HTML</p>
 		<p>Php</p>
 		<p>CSS</p>
 		<p>MySQL</p>
 		<p>Git</p>
+		<p>Bootstrap</p>
 	</div>
-	<div>
+
+	<div class="portfolio">
 		<h1>Portfolio</h1>
 	</div>
-	<div>
+
+	<div class="contact">
 		<h1>Contact Me</h1>
 		<p>I would love to work with you!</p>
 		<div>
@@ -39,5 +59,8 @@
 			<h2>Email</h2>
 		</div>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

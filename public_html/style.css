@@ -1,0 +1,41 @@
+header {
+	background-image: url(images/header.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding-bottom: 10%;
+	padding-top: 10%;
+	resize: both;
+	text-align: center;
+	display: block;
+}
+.about-me {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.about-me img {
+	width: 300px;
+	height: auto;
+	border: 3px solid black;
+
+}
+
+.skills {
+	border-top:8px solid black;
+}
+
+.portfolio{
+	border-top:
+		8px solid black;
+	border-bottom: 8px solid black;
+}
+
+.contact {
+	border:3px solid black;
+	margin: 20px;
+	text-align: center;
+}
