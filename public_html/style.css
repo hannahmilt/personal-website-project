@@ -8,10 +8,9 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
-	height: 100%;
-	padding-bottom: 10%;
-	padding-top: 10%;
-	resize: both;
+	height: 450px;
+	width: 100%;
+	padding-top: 20%;
 	text-align: center;
 	color: floralwhite;
 
