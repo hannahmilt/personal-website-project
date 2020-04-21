@@ -6,6 +6,10 @@
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
@@ -69,21 +73,32 @@
 		<p>I would love to work with you!</p>
 
 		<form id="my-contact-form" action="../php/mailer.php" method="POST">
-			<div class="form-group" id="contactName" name="contactName">
-				<label for="InputName1">Name</label>
-				<input type="text" class="form-control" id="InputName1" placeholder="Your Name">
+			<div class="form-group">
+				<label for="contactName">Name<span class="text-danger">*</span></label>
+			<div class="input-group">
+				<input type="text" class="form-control" id="contactName" name="contactName" placeholder="Your Name">
 			</div>
-			<div class="form-group" id="contactEmail" name="contactEmail">
-				<label for="exampleInputEmail1">Email address</label>
-				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 			</div>
-			<div class="form-group" id="contactSubject" name="contactSubject">
-				<label for="InputSubject1">Subject</label>
-				<input type="text" class="form-control" id="InputSubject1" placeholder="Enter Subject">
+
+			<div class="form-group">
+				<label for="contactEmail">Email address<span class="text-danger">*</span></label>
+			<div class="form-group">
+				<input type="email" id="contactEmail" name="contactEmail" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
 			</div>
-			<div class="form-group" id="contactMessage" name="contactMessage">
-				<label for="exampleFormControlTextarea1">Message</label>
-				<textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Enter Message"></textarea>
+			</div>
+
+			<div class="form-group">
+				<label for="contactSubject">Subject</label>
+			<div>
+				<input type="text" class="form-control" id="contactSubject" name="contactSubject" placeholder="Your Subject">
+			</div>
+			</div>
+
+			<div class="form-group">
+				<label for="contactMessage">Message<span class="text-danger">*</span></label>
+			<div>
+				<textarea class="form-control" id="contactMessage" name="contactMessage" rows="7" placeholder="Your Message"></textarea>
+			</div>
 			</div>
 			<!-- reCAPTCHA -->
 			<div class="g-recaptcha" data-sitekey="6LekBewUAAAAALedoCSq-5XmMzmSO2efs1KmZ2GL"></div>
@@ -112,8 +127,6 @@
 			</div>
 			</div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
