@@ -8,15 +8,21 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 500px;
+	height: 450px;
 	width: 100%;
 	padding-top: 20%;
 	text-align: center;
 	color: floralwhite;
 }
 
+.name{
+	border: 3px solid white;
+
+}
+
 .about-me {
 	margin: 20px;
+	padding: 30px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
