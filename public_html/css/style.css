@@ -46,12 +46,25 @@ header {
 	border-bottom: 8px solid black;
 }
 
-.contact {
-	border:3px solid black;
-	margin: 20px;
+.connect {
+	border:1px solid black;
+	padding:40px 0px;
+	position: relative;
+	width: 100%;
 	text-align: center;
 }
 
-.icons{
+.connect a {
+	background: gold;
+	color: floralwhite;
+	display: inline-block;
+	border: 5px solid gold;
+	border-radius: 6px;
+}
 
+.connect a:hover {
+	background:white;
+	border: 5px solid gold;
+	border-radius: 6px;
+	color: gold;
 }
