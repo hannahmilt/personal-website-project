@@ -1,7 +1,4 @@
-body{
-	font-family: 'Raleway', sans-serif;
-	background-color: white;
-}
+
 
 header {
 	background-image: url(../images/header.jpeg);
@@ -44,16 +41,17 @@ header {
 }
 
 .skills {
-	margin: 60px;
 	padding: 50px;
 	border: solid 2px;
 	border-radius: 20px;
+	background-color: RGB(254,205,109);
 }
 .portfolio {
 	margin: 60px;
 	padding: 50px;
 	border: solid 2px;
 	border-radius: 20px;
+	background-color: RGB(254,205,109);
 
 
 }
@@ -69,6 +67,7 @@ header {
 	padding: 50px;
 	border: solid 2px;
 	border-radius: 20px;
+	background-color: RGB(254,205,109);
 }
 
 #my-contact-form{
