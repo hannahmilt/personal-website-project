@@ -37,29 +37,38 @@ header {
 }
 
 .about-me img {
-	display: flex;
 	width: 400px;
 	height: auto;
 	border: 3px solid black;
 
 }
 
-.container {
-	border-top:8px solid black;
-	padding:3px
-}
 .skills {
-	border: 3px solid black;
+	margin: 60px;
+	padding: 50px;
+	border: solid 2px;
+	border-radius: 20px;
 }
+.portfolio {
+	margin: 60px;
+	padding: 50px;
+	border: solid 2px;
+	border-radius: 20px;
 
-.portfolio{
-	border-top:
-		8px solid black;
-	border-bottom: 8px solid black;
+
+}
+.websites{
+	border: 3px solid black;
+	padding: 3px;
+	margin: 30px;
 }
 
 .contact{
 	text-align: center;
+	margin: 60px;
+	padding: 50px;
+	border: solid 2px;
+	border-radius: 20px;
 }
 
 #my-contact-form{
