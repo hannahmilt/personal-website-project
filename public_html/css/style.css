@@ -41,6 +41,7 @@ header {
 }
 
 .skills {
+	margin: 60px;
 	padding: 50px;
 	border: solid 2px;
 	border-radius: 20px;
@@ -71,6 +72,16 @@ header {
 
 #my-contact-form{
 	text-align: left;
+}
+
+.button{
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+btn-success{
+	border: 1px solid black;
 }
 
 .connect {
