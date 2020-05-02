@@ -1,22 +1,31 @@
 
 
-header {
+.banner {
 	background-image: url(../images/header.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
-	height: 450px;
+	background-position: bottom center;
+	margin: 2px;
+	height: 500px;
 	width: 100%;
 	padding-top: 250px;
+	padding-left: 300px;
 	text-align: center;
+
+}
+
+.banner header{
+	text-align: center;
+	padding: 15px;
+	border: 3px solid white;
+	display: inline-block;
 	color: floralwhite;
+
 }
 
 .name{
 
-	padding: 15px;
-	border: 3px solid white;
-	display: inline-block;
+
 
 
 }
