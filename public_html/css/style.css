@@ -42,6 +42,7 @@
 	float: left;
 	margin-right: 60px;
 
+
 }
 .about-me h1{
 	border: 1px;
@@ -70,8 +71,27 @@
 	margin: 30px;
 }
 
-.card img{
-	border: 2px;
+section:nth-child(4) table{
+	width:100%;
+}
+
+table{
+	margin: 20px;
+}
+
+th, td{
+	border: red 3px;
+	margin: 20px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+th{
+	border:red 3px;
+}
+section:last-child{
+	background-color: rgb(51,51,51);
 }
 
 
