@@ -1,5 +1,4 @@
 
-
 .banner {
 	background-image: url(../images/header.jpeg);
 	background-size: cover;
@@ -119,8 +118,9 @@ btn-success{
 }
 
 .connect {
+	background-color: black;
 	border:1px solid black;
-	padding:40px 0px;
+	padding:30px 0px;
 	position: relative;
 	width: 100%;
 	text-align: center;
