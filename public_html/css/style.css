@@ -26,11 +26,12 @@
 	margin: 60px;
 	padding: 50px;
 	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	border: solid 2px;
 	border-radius: 20px;
 	background-color: RGB(254,205,109);
+	text-align: left;
 
 }
 
@@ -38,7 +39,12 @@
 	width: 400px;
 	height: auto;
 	border: 3px solid black;
+	float: left;
+	margin-right: 60px;
 
+}
+.about-me h1{
+	border: 1px;
 }
 
 .skills {
@@ -57,9 +63,15 @@
 }
 
 .websites{
+	display: flex;
+	justify-content: center;
 	border: 3px solid black;
 	padding: 3px;
 	margin: 30px;
+}
+
+.card img{
+	border: 2px;
 }
 
 
