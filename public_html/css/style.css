@@ -42,30 +42,29 @@
 
 }
 
-
 #skills {
 	margin-top: 60px;
-	padding: 40px;
+	/*padding: 40px;*/
 	border: solid 4px rgb(253,239,86);
 	border-radius: 20px;
 	background-color: RGB(254,205,109);
 }
-#portfolio {
-	margin-top: 60px;
-	border: solid 4px rgb(253, 239, 86);
-	border-radius: 20px;
-	background-color: RGB(254,205,109);
 
-}
-
-
-.skills p{
+.skills .col{
 	/*padding: 10px;*/
 	border-radius: 10px;
 	border:solid black 3px;
 	text-align: center;
 	background-color: rgb(39,44,49);
 	color: floralwhite;
+
+}
+
+#portfolio {
+	margin-top: 60px;
+	border: solid 4px rgb(253, 239, 86);
+	border-radius: 20px;
+	background-color: RGB(254,205,109);
 
 }
 
