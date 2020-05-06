@@ -50,7 +50,7 @@
 	background-color: RGB(254,205,109);
 }
 
-.skills .col{
+.skills .col-md-3 {
 	/*padding: 10px;*/
 	border-radius: 10px;
 	border:solid black 3px;
