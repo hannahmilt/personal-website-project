@@ -44,14 +44,12 @@
 
 #skills {
 	margin-top: 60px;
-	/*padding: 40px;*/
 	border: solid 4px rgb(253,239,86);
 	border-radius: 20px;
 	background-color: RGB(254,205,109);
 }
 
 .skills .col-md-3 {
-	/*padding: 10px;*/
 	border-radius: 10px;
 	border:solid black 3px;
 	text-align: center;
@@ -67,6 +65,18 @@
 	background-color: RGB(254,205,109);
 
 }
+
+.websites .col-md{
+
+	max-width: 25rem;
+
+}
+/*#portfolio img {*/
+/*	width: 100%;*/
+/*	height: auto;*/
+/*	border: 3px solid black;*/
+/*	border-radius:50%;*/
+/*}*/
 
 #contact{
 	margin-top: 60px;
