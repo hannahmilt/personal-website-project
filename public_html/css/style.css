@@ -90,16 +90,16 @@
 }
 
 .connect {
-	margin-top: 60px;
-	background-color: rgb(39,44,49);
-	border:4px solid black;
+	margin: 30px;
 	padding:5px;
-	display: block;
+	display: flex;
+	justify-content: center;
 	text-align: center;
 
 }
 
 .connect a{
+	margin-right: 50px;
 	background: gold;
 	color: floralwhite;
 	display: inline-block;
